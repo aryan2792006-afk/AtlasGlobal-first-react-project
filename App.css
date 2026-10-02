@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(205, 224, 253);;
+}
+
+.Header-container{
+   
+    height: 4rem;
+    padding-left: 125px;
+    padding-right: 125px;
+    background-color:#02385c;
+    color: #F4B942;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    font-size: 1.4rem;
+    h1{
+        justify-content: flex-start;
+        
+    }
+    
+    
+}
+.Header-navlink {
+       display: flex;
+       gap: 18px;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size:1.5rem
+    
+         
+    }
+
+}
+.hero-sec{
+    height: 400px;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    background-color: #0b8fdb;
+}
+.hero-branding{
+    margin-top: 50px;
+    h2{
+        font-size: 3.4rem;
+        color: #17202A;
+    }
+    p{
+        margin-left: 20px;
+    }
+    button{
+        width: 190px;
+        height: 60px;
+        justify-content: center;
+        font-size: 1.3rem;
+        font-weight: 700;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+   
+}
+.main-country-div {
+    /* width: 1400px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    width: 332px;
+    height: 160px;
+    padding: 10px;
+    background:linear-gradient(45deg,#0496e4,#06468f);
+    margin: 6px;
+    border: 1px solid whitesmoke ;
+    border-radius: 12px;
+    p{
+        font-size: 18px;
+        /* color: gold; */
+    }
+    span{
+        font-weight: 600;
+       
+    }
+    h1{
+        color: rgb(242, 240, 230);
+    }
+
+
+
+}
+.card:hover {
+    transform: scale(1.02);
+    border: 1px solid rgb(11, 2, 64);
+}
+.footer{
+    height: 3.5rem;
+    width: 99.2%;
+    padding: .4rem;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    justify-content: space-around;
+    margin-top: 28px;
+    background-color: #024849;
+
+    color: white;
+    
+
+}
+.go-home{
+    color: white;
+    height: 1.8rem;
+     background-color: rgb(29, 29, 29);
+     font-size: 22px;
+     text-align: center;
+     
+   
+#nav{
+    color: white;
+    text-decoration: none;
+}
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 600px;
+    input{
+        height: 2.5rem;
+        width: 387px;
+        border-radius: 10px;
+    }
+  
+    label{
+        font-family: Cambria, Cochin, Georgia, Times, 
+        'Times New Roman', serif;
+        font-weight: 600;
+    }
+   
+          button {
+              margin: 40px;
+              margin-left: 30px;
+              height: 2.8rem;
+              width: 300px;
+          }
+                   #msg {
+        
+                       height: 150px;
+                       vertical-align: top;
+                       font-size: 18px;
+                   }
+}
+.startex{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(1, 12, 84);
+    color: rgb(253, 241, 241);
+    
+}
+
+marquee{
+    font-size: 4rem;
+    color:rgb(15, 1, 48) ;
+    font-weight: 600;
+   span{
+        margin-right: 200px;
+    }
+}
+.moving-txt{
+    margin: 5px;
+    /* border: 8px solid rgb(1, 58, 58) ; */
+    background-color: rgb(220, 236, 249);
+}
+.img-hero{
+    width: 50%;
+    height: 90%;
+}
+.submitbtn{
+    border: 3px solid  grey;
+    border-radius: 12px;
+}
+.contact{
+    text-align: center;
+}
+.countryCard{
+    width: 90%;
+    
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap
+
+
+}
+.cardForCountry{
+    background-color: rgb(235, 235, 241);
+    width: 280px;
+    height: 250px;
+    display: flex;
+    border: 2px solid rgb(4, 1, 41) ;
+    border-radius: 12px;
+    margin: 8px;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    span{
+    font-size:20px;
+    font-weight: 300;
+    }
+    div{
+        display: flex;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f4f6;
+    }
+   
+    
+}
+.cardForCountry:hover{
+    background-color: #cfd3d5;
+    border: 2px solid rgb(127, 3, 46);
+}
+.err{
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    background-image: url("https://imgs.search.brave.com/e--K8eCphzQv64v6pHrS5Y-p4TLP3F8kk_TCXMYuFzk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDIv/OTkxLzc0MC9zbWFs/bC9lcnJvci1wYWdl/LWxvYWRpbmctaWxs/dXN0cmF0aW9uLWNv/bmNlcHQtdmVjdG9y/LmpwZw");
+    /* background-size: contain; */
+    
+}
+
+
+.error{
+    font-size: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+.Header-navlink a:hover{
+   border: 1px solid white ;
+}
+.footer div:hover{
+border: 1px solid white;
+}
